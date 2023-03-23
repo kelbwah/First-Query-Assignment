@@ -61,7 +61,7 @@ INSERT INTO customer
 VALUES ( 1873, 'Suburban Appliance', '128 High', 'Springfield', 'GA', '23358', 1257.50, 5000.00, 268 );
 
 CREATE TABLE product
-(prod_id	CHAR(5)	primary key,
+(prod_id	CHAR(5)	PRIMARY KEY,
  prod_desc	VARCHAR(20),
  prod_quantity	SMALLINT,
  prod_type	CHAR(2),
